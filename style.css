@@ -1,0 +1,84 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url(landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.link {
+    font-size: 20px;
+    text-align: right;
+    margin-right: 15px;
+    font-family: cursive;
+
+}
+
+.link a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: beige;
+    
+}
+
+.link :hover {
+    color: aqua;
+    transition: 2s;
+    border-bottom: 2px solid white;
+    font-size: 25px;
+
+}
+
+
+.login {
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 8%;
+    font-family: cursive;
+    border-radius: 50px 50px 50px 50px;
+    color: beige;
+    transition: blur(0.3em);
+    
+}
+.login label{
+    font-size: 15px;
+    margin-right: 10%;
+    padding-left: 15px;
+    font-family: cursive;
+    line-height: 60px;
+    color: beige;
+}
+
+.login input{
+    margin-right: 10%;
+}
+
+.login input {
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    border: none;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.login :hover{
+    color: white;
+    transition: 2s;
+    font-size: 15px;
+}
+
+.login button {
+    background-color: aqua;
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin-top: 10%; 
+    margin-left: 14%;
+    border: none;
+    border-radius: 50px 50px 50px 50px;
+}
